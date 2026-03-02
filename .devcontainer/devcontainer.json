@@ -1,0 +1,31 @@
+{
+    "name": "Vibe coding Sandbox",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode",
+    "workspaceFolder": "/workspaces/vibe-coding",
+    "customizations": {
+        "vscode": {
+            "extensions": ["moonshot.kimi-code"],
+            "settings": {
+                "kimi.yoloMode": false,
+                "chat.tools.terminal.sandbox.enabled": true,
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    },
+     "features": {
+        // This adds Rust tools safely if needed
+        "ghcr.io/devcontainers/features/common-utils:2.5.6": {
+        "installGit": true,
+        "upgradePackages": true
+        }   
+    },
+    "mounts": [
+        // This ensures the agent can't see your Mac's SSH keys or Docker socket
+        "source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,type=bind,readonly"
+    ],
+    // "runArgs": ["--cap-drop=ALL"] <-- Leave this commented out for the first run!
+    "updateRemoteUserUID": true
+}
