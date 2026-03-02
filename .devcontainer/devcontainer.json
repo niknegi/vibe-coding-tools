@@ -7,7 +7,9 @@
     "workspaceFolder": "/workspaces/vibe-coding",
     "customizations": {
         "vscode": {
-            "extensions": ["moonshot.kimi-code"],
+            "extensions": [
+                "moonshot-ai.kimi-code"
+            ],
             "settings": {
                 "kimi.yoloMode": false,
                 "chat.tools.terminal.sandbox.enabled": true,
