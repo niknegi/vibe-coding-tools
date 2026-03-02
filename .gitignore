@@ -1,0 +1,103 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - Vim/Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.venv/
+venv/
+ENV/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+target/
+*.iml
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Docker
+.dockerignore
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/
