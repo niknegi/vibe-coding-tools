@@ -4,7 +4,7 @@
         "dockerfile": "Dockerfile"
     },
     "remoteUser": "vscode",
-    "workspaceFolder": "/workspaces/vibe-coding",
+    "workspaceFolder": "/workspaces/vibe-coding-tools",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -17,12 +17,12 @@
             }
         }
     },
-     "features": {
+    "features": {
         // This adds Rust tools safely if needed
         "ghcr.io/devcontainers/features/common-utils:2.5.6": {
-        "installGit": true,
-        "upgradePackages": true
-        }   
+            "installGit": true,
+            "upgradePackages": true
+        }
     },
     "mounts": [
         // This ensures the agent can't see your Mac's SSH keys or Docker socket
