@@ -19,7 +19,7 @@
     },
     "features": {
         // This adds Rust tools safely if needed
-        "ghcr.io/devcontainers/features/common-utils:2.5.6": {
+        "ghcr.io/devcontainers/features/common-utils:2.5.7": {
             "installGit": true,
             "upgradePackages": true
         }
